@@ -3,7 +3,7 @@
 This repository is dedicated to the semester project of the NTUA ECE course "Advanced Database Topics". 
 In this project we use VMs to setup a spark cluster on top of hadoop. We used resources from "okeanos knossos" 
 https://okeanos-knossos.grnet.gr/home/ GRNET's cloud service to setup 2 VMs. When the installation is done we
-use the spark cluster to execute queries on high volume Dataframes and RDDs. More specifically, we used
+use the spark cluster to execute queries on high volume data using SQL/Dataframe API and RDD API. More specifically, we used
 parquet files and worked on taxi-trip data gathered from the New York's Taxi and Limousine Comission https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ### setup
