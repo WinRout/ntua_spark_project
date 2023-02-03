@@ -1,5 +1,5 @@
 # ntua_spark_project
-#About
+# About
 This repository is dedicated to the semester project of the NTUA ECE course "Advanced Database Topics". 
 In this project we use VMs to setup a spark cluster on top of hadoop. We used resources from "okeanos knossos" 
 https://okeanos-knossos.grnet.gr/home/ GRNET's cloud service to setup 2 VMs. When the installation is done we
