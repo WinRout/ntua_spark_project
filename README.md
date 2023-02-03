@@ -19,4 +19,4 @@ Contains csv files correspinding to the results of each query.
 Contains the report as well as the wording of the project. (greek language)
 
 ### time_outputs.csv
-It shows the executed time of each query. The first part above represents one worker (2 cpus) in the Spark cluster. The below part represents two workers (4 cpus). Each time was measured as an average of 10 executes.
+It shows the execution time of each query. The rows above correspond to one worker (2 cpus) in the Spark cluster. The rows below correspond to two workers (4 cpus). Each time was measured as an average of 10 executes.
