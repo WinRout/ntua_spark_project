@@ -13,7 +13,7 @@ Contains instructions to setup the virtual machines, install hadoop and setup Sp
 Contains the python script which it was used for submitting the jobs in the Spark cluster.
 
 ### outputs
-Contains csv files correspinding to the results of eeach query.
+Contains csv files correspinding to the results of each query.
 
 ### docs
 Contains the report as well as the wording of the project. (greek language)
