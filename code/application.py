@@ -156,7 +156,7 @@ res3_rdd = []
 for i in range(10):
     start = time.time()
     rdd1 = tripdata_rdd.filter(lambda x : x.PULocationID != x.DOLocationID)
-    rdd2 = rdd1.map(lambda x : (x.tpep_pickup_datetime.timetuple().tm_yday//15, (x.total_amount, x.trip_distance)))
+    rdd2 = rdd1.map(lambda x : (((x.tpep_pickup_datetime.timetuple().tm_yday-1)//15-1), (x.total_amount, x.trip_distance)))
     rdd3 = rdd2.reduceByKey(lambda x, y: (x[0]+y[0], x[1]+y[1]))
     countsByKey = sc.broadcast(rdd2.countByKey())
     rdd4 = rdd3.map(lambda x : (x[0], x[1][0]/countsByKey.value[x[0]], x[1][1]/countsByKey.value[x[0]]))
